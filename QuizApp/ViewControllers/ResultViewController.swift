@@ -16,6 +16,9 @@ class ResultViewController: UIViewController {
     }
     
 
+    @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
+        dismiss(animated: true)
+    }
     /*
     // MARK: - Navigation
 
