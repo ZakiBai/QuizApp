@@ -64,7 +64,7 @@
 				3540A3B729ED1A4F0023C8D7 /* ViewControllers */,
 				3540A3B329ED19F80023C8D7 /* StoryBoards */,
 				3540A3A829ED02930023C8D7 /* Assets.xcassets */,
-				3540A3BA29ED1A7B0023C8D7 /* Questions */,
+				3540A3BA29ED1A7B0023C8D7 /* Models */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -97,12 +97,12 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		3540A3BA29ED1A7B0023C8D7 /* Questions */ = {
+		3540A3BA29ED1A7B0023C8D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				3540A3B829ED1A6E0023C8D7 /* Question.swift */,
 			);
-			path = Questions;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XZW4VA4NWF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QuizApp/Info.plist;
+				INFOPLIST_FILE = QuizApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -360,7 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XZW4VA4NWF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QuizApp/Info.plist;
+				INFOPLIST_FILE = QuizApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
